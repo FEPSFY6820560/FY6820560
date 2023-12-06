@@ -135,9 +135,61 @@ dynamics.
 The logistic map is a great way to describe population growth (B.L. Badger). It’s dynamic 
 equation (or quadratic recurrence equation) (Ahmad, 2021) is:
 
-<img src="LogisticMapDynamicEquation.png" alt="Banner" width="110" height="25">
+<img src="LogisticMapDynamicEquation.png" alt="Banner" width="100" height="20">
 , where r is the ‘growth rate’, or ‘biotic potential’, and x<sub>0</sub> is the initial proportional population 
 (0 to 1)
+
+The logistic map was popularized by Robert May (B.L. Badger) in 1976 as a way of predicting 
+how populations grow and shrink over time. It was earlier suggested by John von Neumann in 
+the late 1940s that it may act as a random number generator (Weisstein). More detailed studies 
+were performed in the 1950s over the properties of the map were beyond that of simple 
+oscillatory behaviour (Ahmad, 2021).
+
+The logistic map’s contents change to a large degree depending on growth rate and initial 
+conditions. For example, if we choose to have a small value of r, the population will tend 
+towards 0 (r = 0.6, x<sub>0</sub>=0.8):
+
+<img src="Figure1.png" alt="Banner" width="900" height="400">
+Figure 1
+
+If we increase the r value, the population begins to stabilise (r = 1.5, x<sub>0</sub>=0.8):
+
+<img src="Figure2.png" alt="Banner" width="900" height="400">
+Figure 2
+
+We can see the population begin to fluctuate, but still stabilise (r = 2.9, x<sub>0</sub>=0.8):
+
+<img src="Figure3.png" alt="Banner" width="900" height="400">
+Figure 3
+
+What we can define as chaos is introduced around ‘r’ values higher than 3.5 (r = 3.6, x<sub>0</sub>=0.8):
+
+<img src="Figure4.png" alt="Banner" width="900" height="400">
+Figure 4
+
+Finally, at ‘r’ values of 4, we begin to see very extreme cases of chaos (r = 4.0, x<sub>0</sub>=0.8):
+
+<img src="Figure5.png" alt="Banner" width="900" height="400">
+Figure 5
+
+But how do we know that this is truly chaotic? As mentioned previously, for a system to be 
+defined as chaotic it needs to be sensitive to initial conditions, aperiodic and deterministic 
+(Eklund, 2009). 
+
+From figure 5, we can tell that it is aperiodic as it has no general trend. 
+
+It can also be said that the logistic equation is deterministic in that we are getting the same 
+results with the same conditions every time: the output is determined by the input.
+
+Showing that it is sensitive to initial conditions is also possible, with the simple change of x<sub>0</sub> to 
+0.8000001:
+
+<img src="Figure6.png" alt="Banner" width="900" height="400">
+Figure 6
+
+We can see that the map has changed significantly, so it can be said that the logistic map is 
+sensitive to initial conditions. Therefore, the logistic map can be an example of a chaotic 
+system.
         </pre>
       </p>
 
@@ -145,7 +197,15 @@ equation (or quadratic recurrence equation) (Ahmad, 2021) is:
     <h3 id="Why do we study chaos theory?">Why do we study chaos theory?</h3>
       <p class="ex1">
         <pre>
-          This is the stuff before
+The study of chaos theory can have many purposes. On top of population growth, the study of 
+nature – especially biology – has been greatly aided by the study of chaos. For example, 
+understanding chaos has allowed for a better understanding of irreversibility in dynamics, 
+which has further assisted in the understanding of evolution and modelling complex 
+phenomena (Conte, 2004).
+
+Chaos has also been used in encryption (Lu, 2004) to alter statistical distribution. This involves 
+using a logistic map with ‘r’ values between 3.57 and 4 to compress images before continuing 
+with the encryption algorithm.
         </pre>
       </p>
 
@@ -153,7 +213,11 @@ equation (or quadratic recurrence equation) (Ahmad, 2021) is:
     <h3 id="Conclusion">Conclusion</h3>
       <p class="ex1">
         <pre>
-          This is the stuff before
+Chaos was first studied due to an accuracy deficit in research as a means to identify and predict 
+losses in accuracy. It has since had many uses in predicting many facets of nature (Conte, 
+2004), whether it be through fractals (Topaloglou, 2013) or through identifying key factors in 
+what is making a chaotic system, thereby being able to use it in processes such as encryption 
+(Conte, 2004). It has now made itself integral to many areas of research.
         </pre>
       </p>
 
@@ -190,6 +254,12 @@ Available at: <a href="https://www-sciencedirect-com.surrey.idm.oclc.org/journal
 
 N., Svetoslav, C., Sebastien (2004) “Occurrence of regular, chaotic and hyperchaotic behavior in a family of modified Rossler hyperchaotic systems” Chaos, Solitons & Fractals, volume 22, Issue 2, 407-431. ScienceDirect: Elsevier.
 Available at: <a href="https://www-sciencedirect-com.surrey.idm.oclc.org/journal/chaos-solitons-and-fractals/vol/22/issue/2">"https://www-sciencedirect-com.surrey.idm.oclc.org/journal/chaos-solitons-and-fractals/vol/22/issue/2"</a>
+
+Lu, Jun-an, Wu, Xiaoqun, Lü, Jinhu, Kang, Lishan (2004) “A new discrete chaotic system with rational fraction and its dynamical behaviors” Chaos, Solitons & Fractals, volume 22, Issue 2, 311-319. ScienceDirect: Elsevier.
+Available at: <a href="https://www.sciencedirect.com/science/article/pii/S0960077904000177?fr=RR-2&ref=pdf_download&rr=8310e92ebee06557">"https://www.sciencedirect.com/science/article/pii/S0960077904000177?fr=RR-2&ref=pdf_download&rr=8310e92ebee06557"</a>
+
+C., Elio, F., Antonio, P.Z., Joseph (2004) “On a simple case of possible non-deterministic chaotic behavior in compartment theory of biological observables” Chaos, Solitons & Fractals, volume 22, Issue 2, 277-284. ScienceDirect: Elsevier.
+Available at: <a href="https://www.sciencedirect.com/science/article/pii/S0960077903005733?fr=RR-2&ref=pdf_download&rr=8310e92ebedf6557">"https://www.sciencedirect.com/science/article/pii/S0960077903005733?fr=RR-2&ref=pdf_download&rr=8310e92ebedf6557"</a>   
         </pre>
       </p>    
 
